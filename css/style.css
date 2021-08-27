@@ -1,0 +1,290 @@
+/* :::::::Font Link Start:::::::: */
+@font-face {
+    font-family:Roboto-Light;
+    src: url(../Font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(../Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(../Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:PlayfairDisplay-Regular;
+    src: url(../Font/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family:Rufina-Regular;
+    src: url(../Font/Rufina-Regular.ttf);
+}
+@font-face {
+    font-family:Rufina-Bold;
+    src: url(../Font/Rufina-Bold.ttf);
+}
+/* :::::::Font Link End:::::::: */
+
+
+
+/* ::::::: Common css Start:::::::: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Roboto-Light;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #fff;
+    color: #6c6c6f;
+    line-height: 27px;
+  }
+  a{
+      text-decoration: none;
+      outline: 0px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    font-family:Rufina-Bold;
+    font-weight: 700;
+  }
+  p{
+      margin: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  section {
+    display: block;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+  }
+/* ::::::: Common css End:::::::: */
+
+
+
+
+/* ::::::::: Header  start ::::::::: */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.castom-toggler{
+    padding: 3px 0;
+}
+.castom-toggler:focus{
+    box-shadow: none;
+}
+.castom-toggler span{
+    height: unset;
+    width: unset;
+    font-size: 25px;
+    color: #ff817e;
+}
+.menu{
+    margin-right: 170px;
+}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-family:Roboto-Medium;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #263a41 !important;
+    display: block;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #ff817e !important;
+}
+
+/* ::::::::: Header  end ::::::::: */
+
+
+
+
+/* ::::::::: Banner section  start ::::::::: */
+.banner{
+    background: url(../image/leaf.png)no-repeat left center/12.5%;
+    padding: 170px 0;
+}
+.spa-img img{
+    position: absolute;
+    width: 43.4%;
+    right: 0;
+    top: 0;
+}
+.banner-content span{
+    margin-bottom: 20px;
+    font-family:Rufina-Regular;
+    font-size: 15px;
+    color: #ff817e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+}
+.banner-content h2{
+    margin-bottom: 25px;
+    font-family:Rufina-Bold;
+    font-size: 60px;
+    line-height: 75px;
+    color: #1e2528;
+}
+.banner-content p{
+    margin-bottom: 50px;
+    color: #555555;
+}
+.common-btn{
+    padding: 15px 43px;
+    font-family:Roboto-Medium;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #ffffff !important;
+    background: #ff817e;
+    border: 1px solid #ff817e;
+    border-radius: 0;
+    transition: .5s;
+}
+.common-btn:focus{
+    box-shadow: none;
+}
+.common-btn:hover{
+    background: transparent;
+    color: #ff817e !important;
+}
+.video-btn{
+    margin-left: 15px;
+    color: #555555 !important;
+    font-size: 15px;
+    transition: .5s;
+}
+.video-btn:hover{
+    color: #ff817e !important;
+}
+.video-btn i{
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+    background-color: #fcf5ee;
+    color: #ff817e;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+}
+/* ::::::::: Banner section  end ::::::::: */
+
+
+
+
+
+/* ::::::::: About section start ::::::::: */
+.flower-1{
+    position: absolute;
+    max-width: 160px;
+    top: 0;
+    left: 16%;
+}
+.flower-2{
+    position: absolute;
+    max-width: 88px;
+    top: 50%;
+    right: 125px;
+}
+.common-heading{
+    position: relative;
+    margin-bottom: 70px;
+}
+.common-heading img{
+    max-width: 84px;
+    margin: 0 auto 40px;
+}
+.tagline{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #888;
+    display: block;
+    line-height: .8;
+    margin-bottom: 27px;
+}
+.common-title{
+    font-family:Rufina-Bold;
+    font-size: 42px;
+    color: #1e2528;
+    margin-bottom: 32px;
+}
+.common-heading p{
+    color: #888;
+    margin-bottom: 0;
+    padding: 0 2px;
+}
+/* ::::::::: About section start ::::::::: */
+
+
+
+
+
+
+
+/* ::::::::: Service section start ::::::::: */
+
+/* ::::::::: Service section start ::::::::: */
+
+
+
+
+
+/* ::::::::: Procedures section start ::::::::: */
+
+/* ::::::::: Procedures section end ::::::::: */
+
+
+
+
+
+
+/* ::::::::: Testimonial section  start ::::::::: */
+
+/* ::::::::: Testimonial section  end ::::::::: */
+
+
+
+
+
+
+
+/* ::::::::: Team section  start ::::::::: */
+
+/* ::::::::: Team section  end ::::::::: */
+
+
+
+
+
+
+
+/* :::::::::  Appointment section start ::::::::: */
+
+/* :::::::::  Appointment section end ::::::::: */
